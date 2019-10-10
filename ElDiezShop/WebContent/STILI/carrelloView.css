@@ -1,0 +1,69 @@
+#fotoprodotto{
+	width: 70%; height: 70%;
+	border: 0px;
+}
+
+#figura:hover{
+	background-color:white;
+}
+
+#intestazione{
+	background-color:rgba(0, 0, 0, 0.863);
+	color:white;
+}
+
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 3px solid rgba(0, 0, 0, 0.863);
+}
+
+#carta{
+	border-left: 3px solid rgba(0, 0, 0, 0.863);
+	border-bottom: 3px solid rgba(0, 0, 0, 0.863);
+	border-right: 3px solid rgba(0, 0, 0, 0.863);
+}
+
+#singoloP{
+    font-weight: bold;
+	font-style: inherit;
+}
+
+#cartaRiepilogo{
+	border: 3px solid rgba(0, 0, 0, 0.863);
+}
+
+#bottoneAcquisto:hover{
+	background-color: rgb(255, 218, 8);
+	color:black;
+	border-color:  rgb(255, 208, 0);
+}
+
+#elimina{
+	margin-top:140%;
+}
+
+@media screen and (max-width: 768px) {
+    #elimina{
+	margin-top:80%;
+}
+} 
+
+@media screen and (max-width: 991px) {
+    #elimina{
+	margin-top:80%;
+}
+} 
+
+#togliSottolineatura{
+	text-decoration: none;
+}
+
+#bordoquantita{                  /*type number*/
+    border-color:rgb(37, 37, 37);
+    border-width: 2px;
+}
+
+
+

@@ -1,0 +1,43 @@
+/*CENTRO*/
+#bottoneNost:hover{     /*BOTTONE NOSTALGIA*/
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-color: white;
+}
+#bottoneNost{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-color: black;
+}
+#paragrafo{     /*paragrafo sotto il tasto nostalgia*/
+    background-color: rgba(0, 0, 0, 0.534);
+    color:white;
+    font-weight: 110%;
+}
+
+@media (max-width: 767px){
+.d-md-block {
+    display: block!important;
+}
+#bottoneNost{
+    font-size: 60%;
+}
+#paragrafo{
+    font-size: 80%;
+}
+}
+
+@media (max-width: 380px){
+.d-md-block {
+    display: block!important;
+}
+#bottoneNost{
+    font-size: 50%;
+}
+#paragrafo{
+    font-size: 70%;
+}
+}
+/*FINE CENTRO*/

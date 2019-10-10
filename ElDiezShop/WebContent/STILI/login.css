@@ -1,0 +1,37 @@
+.carta1 {         /*card dove sta scritto login*/
+    color: white;
+    background-color: black;
+}
+
+.btn-mio{              /*bottone login*/
+    background-color: black;;
+    border-color: white;
+}
+
+.btn-mio:hover{
+    background-color: rgb(173, 14, 14);
+    border-color: rgb(143, 8, 8);
+}
+
+#linkReg{            /*LINK A REGISTRAZIONE*/
+    color: black;
+    font-weight: bold;
+}
+
+#linkReg:visited{            /*LINK A REGISTRAZIONE*/
+    color: black;
+    font-weight: bold;
+}
+
+.BORDONERO{    /*PER FAR SI CHE LE DUE BARRE FORM ABBIANO IL BORDO NERO*/
+    border-color: black;
+    border-width: 3px;
+}
+
+.grassetto{         /*per fsre username e password in grassetto*/
+    font-weight: bold;
+}
+
+#errore{     /*login fallito*/
+	color:red;
+}

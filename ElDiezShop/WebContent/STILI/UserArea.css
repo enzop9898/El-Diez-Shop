@@ -1,0 +1,123 @@
+.menu{
+    background-color: rgb(32,31,31);
+    color: white;
+}
+
+.menu:hover{
+    background-color: black;
+    color: white;
+    border-style: none;
+}
+
+
+.nav-tabs .menu.active{
+    background-color: rgb(56, 54, 54);
+    color: white;
+    border-style: none;
+}
+#tabl{
+	border: 1px solid black;
+	width:100%;
+	
+	
+}
+th{
+	border: 1px solid black;
+	color:white;
+	background-color:black;
+	padding:2%; 
+	text-align:center;
+}
+
+#td{
+	border: 1px solid black;
+	font-family: Arial, Helvetica, sans-serif;
+	padding:3%;
+	
+}
+#tdv{
+	border: 1px solid black;
+	font-family: Arial, Helvetica, sans-serif;
+	padding:3%;
+}
+
+#tabl tr:nth-child(2n) {
+	background-color:white;
+	text-align:center;
+	padding:5%;
+}
+
+
+#tabl tr:nth-child(2n+1) {
+	background-color:rgba(129, 129, 129, 0.340);
+	text-align:center;
+	padding:5%;
+}
+#anc{
+	color:black;
+}
+#contenitore_datatarget{
+    border-style: none;
+}
+
+.prova{
+    background-color: black;
+    color: white;
+    padding: 6.5px;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.titpar{
+    color: black;
+    font-weight: bold;
+}
+
+#resetbottone{
+    background-color: rgb(56, 54, 54);
+}
+
+#resetbottone:hover{
+    background-color: rgb(32,31,31);
+}
+
+#inviobottone{
+    background-color: rgb(173, 14, 14);
+    color: white;
+}
+
+#inviobottone:hover{
+    background-color: rgb(134, 9, 9);
+}
+
+
+#parErrore{
+	color: red;
+}
+
+
+/media query/
+@media (max-width: 575.98px) { 
+    #distanziatore{
+        margin-bottom: 23px;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    #distanziatore{
+        margin-bottom: 23px;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    #distanziatore{
+        margin-bottom: 23px;
+    }
+}
+
+
+@media (max-width: 1199.98px) {
+    
+}

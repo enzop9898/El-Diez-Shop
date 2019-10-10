@@ -1,0 +1,83 @@
+.div1{                            /*per mettere immagine e nome e codice centrati*/
+    text-align: center;
+}
+
+#titl{ /*titolo del prodotto*/
+   background-color: rgba(0, 0, 0, 0.863);
+   color: white;
+   padding: 4px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-top: 20px;
+}
+
+/*illustrative*/
+#cat{
+    background-color: rgb(255, 145, 0);
+    padding: 6px;
+}
+
+#br{
+    background-color: rgb(0, 81, 255);
+    padding: 6px;
+}
+
+#nost{
+    background-color: rgb(255, 0, 170);
+    padding: 6px;
+}
+
+#sal{
+   background-color: rgb(226, 12, 12);
+   padding: 6px;
+}
+/*fine illustrativr*/
+
+#prezzovero{
+    font-weight: bold;
+}
+
+#prezzofinto{
+    color:rgb(37, 37, 37); 
+}
+
+#bordoquantita{                  /*type number*/
+    border-color:rgb(37, 37, 37);
+    border-width: 2px;
+    margin-right: 5px;
+}
+
+.taglie{         /*per distanziare i bottoni delle taglie*/
+    margin-right: 5px;
+    
+}
+
+#b1{          /*taglia1*/
+  background-color: black;
+  font-weight: 700;
+} 
+
+#b2{          /*taglia2*/
+    background-color: black;
+    font-weight: 700;
+} 
+
+#b3{          /*taglia2*/
+    background-color: black;
+    font-weight: 700;
+} 
+
+#selezionataglie{
+    font-size: 110%;
+    color: rgba(0, 0, 0, 0.877);
+    font-weight: 700; 
+    margin-right: 7%;
+}
+
+/*bottone aggiungi al carello*/
+#carrell{
+    background-color: #bb0a0a;
+}
+
+#carrell:hover{
+    background-color: #bb0a0a;
+}/*fine bottone*/

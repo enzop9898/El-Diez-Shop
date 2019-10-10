@@ -1,0 +1,53 @@
+#cardColumn{	
+	margin-top: 20px;	
+}
+
+#cardProdotti{
+	height: 30%;
+	border: gray 1px solid;
+}
+
+#cardProdotti:hover {
+	border: black 1.5px solid;
+}
+
+#picc{
+	text-align: center;
+}
+
+#prodottoPic{
+	width: 70%;
+	text-align: center;
+	margin-top:15px;
+}
+
+#cards {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    height: 248px;
+}
+
+
+#visualizza{
+	margin-top:40px;
+}
+
+#cancellato{
+	color:gray;
+}
+
+#SALE{
+	background-color: rgb(219, 16, 16);
+	border-radius:50%;
+	height:50px;
+	width: 50px;
+	margin-right:20px;
+	margin-top:10px;
+    float:right;
+    text-align: center;
+}
+
+#saletesto{
+	margin-top:5px;
+}

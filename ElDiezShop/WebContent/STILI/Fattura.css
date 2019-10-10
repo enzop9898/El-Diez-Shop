@@ -1,0 +1,49 @@
+table {
+	text-align: center;
+	width: 90%;
+}
+
+table tr:nth-child(2n+1) {
+	background: #eee;
+}
+
+table tr:first-child td {
+	border-bottom: 2px solid #ddd;
+	font-weight: bold;
+	background: #fff;
+}
+
+th {
+	border:2px solid black;
+}
+
+td.siiiu
+{
+	border:2px solid black;
+}
+
+tr {
+	border: 1px solid #ddd;
+	width: 100%;
+}
+
+#uno {
+	margin-top: 10%;
+	margin-bottom: 3%;
+	border-collapse:collapse;
+}
+
+#head {
+	display: flex;
+	justify-content: space-between;
+}
+
+#due {
+	border: 1px solid black;
+	border-collapse:collapse;
+}
+#qun
+{
+	color:white;
+	background-color:rgba(0,0,0,0.590);
+}

@@ -1,0 +1,619 @@
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            text-align: center;
+        }
+  
+        
+         
+    }
+    
+   
+
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#navbartop{
+
+    background-color: white;
+
+}
+
+#navbarbot{
+
+    background-color:#232f3e;
+    
+}
+
+#toplink{
+
+    color: black;
+    font-weight: bold;
+
+}
+
+#logout {
+	
+    font-weight: bold;
+    border-color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    border-bottom-color: rgb(255, 255, 255); 
+    border-width:0px;
+    outline: none !important;
+    box-shadow: none !important;
+   
+}
+
+#logout:hover, #logout:active{
+	color: #fdbf14;
+    border-radius: 4px;
+    outline: none !important;
+    box-shadow: none !important;
+    
+}
+
+#logoutli{
+	float: right;
+}
+
+
+#toplink:hover{
+
+    color: #fdbf14;
+    border-radius: 4px;
+
+}
+
+#botlink{
+
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+#botlink:hover{
+
+    color:#fdbf14;
+
+}
+
+.btn-outline-success{
+    border-color:transparent;
+    color:#fdbf14;
+}
+
+
+.card-bottom{
+	position:absolute;
+	bottom:20px;
+	left:0;
+	width:100%;
+	padding-left:20px;
+	padding-right:20px;
+	
+}
+
+#cards {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    height: 248px;
+}
+
+
+
+#cardProdotti{
+	height: 30%;
+}
+
+.line{
+	width:100%;	
+}
+
+#cardProdotti:hover {
+	border: 1px solid #777;
+}
+
+#prodottoPic{
+	width: 70%;
+	text-align: center;
+}
+
+#picc{
+	text-align: center;
+}
+
+.btn-outline-success.focus, .btn-outline-success:focus{
+
+    
+    box-shadow: none;
+    
+
+}
+
+.btn-outline-success:hover, .btn-outline-success:active{
+
+    background-color: #fdbf14 !important;
+    color:#fdbf14 !important;
+    border-color: #fdbf14 !important;
+    outline: none !important;
+    box-shadow: none !important;
+
+}
+
+
+
+
+#carrellopic{
+
+    width:35px;
+    height:35px;
+
+}
+
+
+#cerca{
+    margin-top: 10px;
+}
+
+cerca:focus{
+    border-color:  #fdbf14;
+}
+
+#userpic {
+	padding-bottom: 8px;
+}
+
+#newuserpic {
+	padding-bottom: 6px;
+}
+
+#lineapic {
+	padding-left:3px;
+}
+
+#lineapic2 {
+	padding-left:6px;
+}
+
+#lineapic3 {
+	padding-left:3px;
+}
+
+#infopic {
+	padding-bottom: 8px;
+	
+}
+
+.look{
+	width:100%;
+}
+
+.search-bar {
+    height: 35px;
+    width: 280px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 20px;
+    position: relative;
+    bottom: 6px;
+    background: #fff;
+  }
+  
+  .input {
+    border: none;
+    height: 26px;
+    width: 140px;
+    color: #1b1b1b;
+    font-size: 15px;
+    outline: none;
+    position: relative;
+    top:2px;
+  }
+  
+  .input:not(:placeholder-shown) + .label {
+    font-size: 9px;
+    top: 3px;
+    color: #F94144;
+  }
+  
+  .input:focus ~ .label {
+    font-size: 9px;
+    top: 3px;
+    color: #4279a3;
+    transition: all 0.5s ease;
+  }
+  
+  .label {
+    color: #aaaaaa;
+    position: absolute;
+    top: 8px;
+    pointer-events: none;
+    transition: all 0.5s ease;
+  }
+  
+  .search-btn {
+    background: #fdbf14;
+    border-radius: 20px;
+    height: 30px;
+    min-width: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    justify-content: center;
+    cursor: pointer;
+    right: 2px;
+    position: absolute;
+    transition: all 1s ease;
+  }
+  
+  .icon {
+    display: inline-flex;
+  }
+  
+  .icon-18 {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .highlight {
+    width: 0px;
+    height: 1px;
+    background: #fdbf14;
+    position: absolute;
+    bottom: 8px;
+    transition: all 1s ease;
+  }
+  
+  .input:focus ~ .highlight {
+    width: 150px;
+    transition: all 1s ease;
+  }
+  
+    
+#saluto {
+	color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 14px;
+    padding-right: 5px;
+}
+
+
+
+  
+#cuorepic {
+
+    width:35px;
+    height:35px;  
+
+}
+
+#carousel {
+	padding-top: 15px;
+}
+
+#assistenza {
+	max-width: 100%;
+	
+	padding-top: 10px;
+}
+
+#divAssistenza {
+	text-align: center;
+}
+
+#divTestoContattaci {
+	text-align: center;
+}
+
+#contattaci {
+
+	max-width: 100%;
+	text-align: center;
+	
+}
+
+
+#tastino1 {
+
+    margin-top: 10%;
+    border:2px solid #fdbf14;
+}
+
+#tastino2 {
+    border: 2px solid #324863;
+    margin-top:-5%;
+}
+
+#tastino2:active, #tastino1:active, #tastino2:focus, #tastino1:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/*Inizia la roba riguardante il footer*/
+.page-footer{
+	background-color: rgb(35,47,62);
+}
+
+.footer-copyright {
+    color: rgb(200, 200, 201);
+   
+}
+
+.text-uppercase {
+	color: #fdbf14;
+}
+
+#nC {
+	color: rgb(200, 200, 201);
+}
+
+#contact {
+	color:rgb(200, 200, 201);
+}
+
+.deep-purple {
+	width: 60px;
+	border-color: rgb(200, 200, 201);
+	
+}
+
+
+
+#socialissimi{  /*scritta per i social*/
+	color: #fdbf14;
+}
+
+#fb {
+	border-radius: 200%;
+	border-color:  rgba(105, 105, 131, 0.623);
+	padding: 0.5%;
+	padding-right: 0%;
+	
+}
+
+
+
+#ig {
+	border-radius: 200%;
+	border-color:  rgba(105, 105, 131, 0.623);
+	padding: 0.5%;
+	padding-right: 0%;
+	
+}
+
+#tw {
+	border-radius: 200%;
+	border-color:  rgba(105, 105, 131, 0.623);
+	padding: 0.5%;
+	
+}
+
+#secondaBarra {
+	background-color: rgba(105, 105, 131, 0.623);
+}
+
+#utili {
+	color: rgb(200, 200, 201);
+	
+}
+
+#utili:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+/*Finisce roba footer*/
+
+
+
+#emailo {
+	font-weight: bold;
+	font-sixe: 4px;
+	padding-top:20px;
+}
+
+#scrivici {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: rgb(4,3,17);
+	border-color: silver;
+}
+
+
+
+
+#userlabel,#pwlabel,#emailHelp, #exampleCheck1, #send, #rememberform, #user, #password{
+    margin-left: 30%;
+}
+
+
+#user, #password{
+    display: block;
+    width: 40%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+   color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#tendenza {
+	color: #000;
+	font-size: 180%;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0 20px;
+}
+
+#tend{
+	text-align: center;
+}
+#tendenzab {
+	color: #ffc000;
+}
+#tendenza::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	background: rgba(0, 0, 0, 0.2);
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+ /*Roba del contattaci */
+#formCont {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#labelCont, #infoCont, #emailCont, #tel, #msg {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+#infoCont, #emailCont, #tel, #msg {
+  padding: 10px;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+#sendCont {
+
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#sendCont:hover {
+  
+}
+/*Fine Roba del contattaci */
+
+#proviamolo{ /*margini della tabella della visualizzazione ordini */
+	border-right: 1px solid rgb(222,226,230);
+	border-left: 1px solid rgb(222,226,230);
+}
+
+#errLogin {
+	text-align: center;
+}
+
+
+#bottoneRicerca{
+	border-radius:30px;
+	background-color: #fdbf14;
+	border-color: #fdbf14;
+	outline: none !important;
+    box-shadow: none !important;
+    border-bottom-color: rgb(255, 255, 255); 
+    border-width:0px;
+    padding-bottom:1 px;
+}
+
+#bottoneRicerca:hover{
+  background-color: #dda406;
+  border-color: #dda406;
+}
+
+.project-tab {
+    padding: 10%;
+    margin-top: -8%;
+}
+.project-tab #tabs{
+    background: #007b5e;
+    color: #eee;
+}
+.project-tab #tabs h6.section-title{
+    color: #eee;
+}
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #232f3e;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.project-tab .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #232f3e;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.project-tab .nav-link:hover {
+    border: none;
+}
+.project-tab thead{
+    background: #f3f3f3;
+    color: #333;
+}
+.project-tab a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.formdiv{
+	
+	width:33%;
+	float:left;
+}
+
+#cardColumn{
+	
+	margin-top: 20px;
+	
+}
+
+#immagineCerca {
+	width: 200px;
+	padding-top:20px;
+}
+
+#filtriNome{
+	color: blue;
+}
+
+#preferitiProdotto{
+	padding-top:10px;
+}
+
+#visualizzazioneProdotto{
+	width: 100%;
+	
+}
+
+#visualizzazioneProdottoPiccole{
+	width: 10%;
+}
+
+#xPic{
+	width:10%;
+}
